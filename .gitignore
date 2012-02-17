@@ -1,0 +1,14 @@
+*.so
+*.dll
+/target
+.idea/workspace.xml
+lib/
+project/target/
+project/plugins/project/target
+project/plugins/target/
+*.log
+.idea/libraries
+project/boot/
+.idea/projectCodeStyle.xml
+jME3_*
+project/project/target
