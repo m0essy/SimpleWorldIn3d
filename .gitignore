@@ -12,3 +12,5 @@ project/boot/
 .idea/projectCodeStyle.xml
 jME3_*
 project/project/target
+*.swp
+*.*~
