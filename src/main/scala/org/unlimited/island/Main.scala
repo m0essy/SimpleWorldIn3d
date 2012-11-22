@@ -25,8 +25,8 @@ object Main extends App {
 class Main extends SimpleApplication {
   private val that = this
   object Implicits {
-    implicit val assetManager = that.assetManager
-    implicit val renderManager = that.renderManager
+    implicit val currentAssetManager = that.assetManager
+    implicit val currentRenderManager = that.renderManager
   }
   def randomTerrainMesh(size: Int, numHills: Int, radius: Float, flatness: Float) = {
     val grid = new Terrain(size)

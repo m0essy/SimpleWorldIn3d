@@ -8,10 +8,11 @@ object IslandBuild extends Build {
       version := "1.0-SNAPSHOT",
       organization := "org.unlimited",
       scalaVersion := "2.10.0-RC2",
+      scalaBinaryVersion <<= scalaVersion,
       fork := true,
 
       libraryDependencies ++= Seq(
-        "org.specs2" %% "specs2" % "1.12.3",
+        "org.specs2" %% "specs2" % "1.12.2",
         "org.specs2" %% "specs2-scalaz-core" % "6.0.1" % "test",
         "org.scalacheck" %% "scalacheck" % "1.10.0" % "test"
       ),
